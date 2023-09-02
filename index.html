@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <form action="">
+    <div class="calculator">
+      <div class="calculator-display">
+          <input data-calc="display" type="text" value="" class="display">
+          <p data-calc="mini-display"></p>
+      </div>
+
+      <div class="calculator-line">
+        <input data-calc="ac" class="op" type="submit" value="AC">
+        <input data-calc="delete" class="op" type="submit" value="DEL">
+        <input data-calc="operacao" class="op" type="submit" value="RAIZ">
+        <input data-calc="operacao" class="op" type="submit" value="/">
+      </div>
+
+      <div class="calculator-line">
+        <input data-calc="number" type="submit" value="7">
+        <input data-calc="number" type="submit" value="8">
+        <input data-calc="number" type="submit" value="9">
+        <input data-calc="operacao" class="op" type="submit" value="x">
+      </div>
+
+      <div class="calculator-line">
+        <input data-calc="number" type="submit" value="4">
+        <input data-calc="number" type="submit" value="5">
+        <input data-calc="number" type="submit" value="6">
+        <input data-calc="operacao" class="op" type="submit" value="-">
+      </div>
+
+      <div class="calculator-line">
+        <input data-calc="number" type="submit" value="1">
+        <input data-calc="number" type="submit" value="2">
+        <input data-calc="number" type="submit" value="3">
+        <input data-calc="operacao" class="op" type="submit" value="+">
+      </div>
+
+      <div class="calculator-line">
+        <input data-calc="number" type="submit" value=".">
+        <input data-calc="number" type="submit" value="0">
+        <input data-calc="equal" type="submit" class="equal op" value="=">
+      </div>
+    </div>
+  </form>
+  <script src="./main.js"></script>
+</body>
+
+</html>
